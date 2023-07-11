@@ -59,11 +59,10 @@ button.cmnbtn:hover {
     margin-bottom: 48px;
 }
 .headerImage {
-    max-width: 127%;
-    max-height: 466px;
-}
-.headerImage {
     margin-bottom: -4px;
+    height: 494px;
+    margin-left: -18px;
+    max-width: 400px;
 }
 .feture-section {
     max-width: 1127px;
@@ -190,6 +189,42 @@ button.cmnbtn:hover {
     width: 539px;
 }
 
+/* pricing image section  */
+.pricing {
+    max-width: 1127px;
+    margin: 30px auto;
+    background: #e2e5e869;
+    box-shadow: 0px 4px 4px 0px rgb(203 179 179 / 25%);
+    padding: 35px 10px;
+}
+.pricing-image1 img {
+    max-height: 284px;
+    max-width: 251px;
+    border-radius: 19px;
+}
+.priceValueSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+}
+.pricing-head {
+    width: 208px;
+    display: block;
+    background: #5e5647;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 28px;
+    font-weight: bold;
+    color: white;
+    margin: 25px auto;
+    cursor: pointer;
+}
+#pricing-btn{
+    margin-top: 15px;
+}
 /* insta section  */
 .instagram{
     max-width: 1127px;
