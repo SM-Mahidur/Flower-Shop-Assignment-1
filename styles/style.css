@@ -116,6 +116,7 @@ button.cmnbtn:hover {
     width: 198px;
     text-align: center;
     margin-left: 1px;
+    cursor: pointer;
 }
 .first-post{
     width: 200px;
