@@ -50,6 +50,11 @@ button.cmnbtn {
     border: none;
     cursor: pointer;
 } 
+button.cmnbtn:hover {
+    color: white;
+    background-color: black;
+    transition: .5s;
+}
 #btnPadding{
     margin-bottom: 48px;
 }
@@ -214,3 +219,26 @@ img.instaCmnImg {
     height: 449px;
     margin-top: 128px;
 }
+#latestDealTitle{
+    padding: 122px;
+}
+p.latestDeal-Description {
+    margin-top: -117px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+.searchBar{
+    margin-top: 46px;
+}
+input[type="email"]{
+    padding: 20px 43px;
+    border-radius: 8px;
+    border: none;
+    background: #FFF;
+    border: 0;
+    width: 700px;
+    margin-right: 16px;
+}
+
