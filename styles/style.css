@@ -151,7 +151,19 @@ button.cmnbtn:hover {
 #second {
     margin-top: 74px;
 }
-
+.fetureSupport {
+    background: #f1f2f2bd;
+    box-shadow: 0px 4px 4px 0px rgb(203 179 179 / 25%);
+    margin-top: 180px;
+    padding: 80px 25px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.supportCommon{
+    margin-top: 10px;
+}
 /* hot deal section  */
 .hotDeal {
     border-radius: 8px;
@@ -270,3 +282,5 @@ input[type="email"]{
     text-align: center;
     font-size: 16px;
 }
+
+
